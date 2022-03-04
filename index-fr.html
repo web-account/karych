@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="fr">
+<title>karych.com</title>
+<meta charset="UTF-8">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<meta name="description" content="Meilleur abonnement iptv 2022 compatible avec tout systeme android, Mac et Windows. Smart-TV, TV-box, Smartphone. test IPTV 24h">
+<meta name="keywords" content="IPTV, m3u, xtream, mag, abonnement iptv, 24h test, tv-box, smart-tv, smartphone">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="amalri.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+  body,h1,h2,h3,h5 {font-family: "Raleway", sans-serif}
+  body, html {height: 100%;line-height: 1.8;}
+  .amalri-bar .amalri-button {padding: 16px;}
+  .mySlides {display:none}
+  .amalri-tag {cursor:pointer}
+  .amalri-tag {height:15px;width:15px;padding:0;margin-top:6px}
+  .sofia{font-family: "Sofia", sans-serif;}
+  </style>
+
+<body>
+<div id="top" style="height: 59px; z-index: -2;"></div>
+
+<!-- Top Bar -->
+<div class="amalri-top">
+  <div class="amalri-bar w3-indigo amalri-card " id="myNavbar">
+    <a href="#top" class="amalri-logo amalri-xlarge">
+      <span class="amalri-grad sofia w3-circle">Karych</span>.com
+  </a>
+    <div class="amalri-right amalri-hide-small">
+      <a href="#top" class="amalri-bar-item amalri-button"><i class="fa fa-home fa-violet"></i> ACCUEIL</a>
+      <a href="#features" class="amalri-bar-item amalri-button"><i class="fa fa-diamond fa-violet"></i> SERVICES</a>
+      <a href="#about" class="amalri-bar-item amalri-button"><i class="fa fa-user fa-violet"></i> A PROPOS</a>
+      <a href="#test" class="amalri-bar-item amalri-button"><i class="fa fa-th fa-violet"></i> TEST</a>
+      <a href="#pricing" class="amalri-bar-item amalri-button"><i class="fa fa-usd fa-violet"></i> PRIX</a>
+      <a href="#contact" class="amalri-bar-item amalri-button"><i class="fa fa-envelope fa-violet"></i> CONTACT</a>
+    </div>
+
+    <a href="javascript:void(0)" class="amalri-bar-item amalri-button amalri-right amalri-hide-large amalri-hide-medium" onclick="amalri_open()">
+      <i class="fa fa-bars w3-text-white"></i>
+    </a>
+    <a href="javascript:void(0)" class="amalri-bar-item amalri-button amalri-right amalri-hide-large amalri-hide-medium" onclick="amalri_openLang()">
+      <i class="fa fa-globe w3-text-white"></i>
+    </a>
+  </div>
+</div>
+
+<!-- SideBar -->
+<div class="amalri-sidebar amalri-bar-block w3-sand amalri-black amalri-card amalri-animate-left amalri-hide-medium amalri-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="amalri-bar-item amalri-button amalri-large amalri-padding-16"><div style="display: inline-block; width: 20px;text-align: center;"><i class="fa fa-close amalri-text-crimson"></i></div>FERMER</a>
+  <a href="#top" onclick="w3_close()" class="amalri-bar-item amalri-button"><div style="display: inline-block; width: 20px;text-align: center;"><i class="fa fa-home fa-violet"></i></div> ACCUEIL </a>
+  <a href="#features" onclick="w3_close()" class="amalri-bar-item amalri-button"><div style="display: inline-block; width: 20px;text-align: center;"><i class="fa fa-diamond fa-violet"></i></div> SERVICES</a>
+  <a href="#about" onclick="w3_close()" class="amalri-bar-item amalri-button"><div style="display: inline-block; width: 20px;text-align: center;"><i class="fa fa-user fa-violet"></i></div> A PROPOS</a>
+  <a href="#test" onclick="w3_close()" class="amalri-bar-item amalri-button"><div style="display: inline-block; width: 20px;text-align: center;"><i class="fa fa-th fa-violet"></i></div> TEST</a>
+  <a href="#pricing" onclick="w3_close()" class="amalri-bar-item amalri-button"><div style="display: inline-block; width: 20px;text-align: center;"><i class="fa fa-usd fa-violet"></i></div> PRIX</a>
+  <a href="#contact" onclick="w3_close()" class="amalri-bar-item amalri-button"><div style="display: inline-block; width: 20px;text-align: center;"><i class="fa fa-envelope fa-violet"></i></div> CONTACT</a>
+</div>
+
+<!-- Languages play on large screen -->
+<div class="amalri-hide-small" style="position: fixed;top: 70px; right:10px;z-index: 5;">
+  <a href="index.html" class="amalri-button-lang">Anglais</a>
+  <a href="#top" class="amalri-button-lang">Français</a>
+  <a href="index-ar.html" class="amalri-button-lang">العربية</a>
+</div>
+
+<!-- Languages play on small and medium screen -->
+<div class="amalri-sidebar amalri-bar-block w3-sand amalri-black amalri-card amalri-animate-left amalri-hide-medium amalri-hide-large" style="display:none" id="mySidebarLang">
+  <a href="javascript:void(0)" onclick="w3_closeLang()" class="amalri-bar-item amalri-button amalri-large amalri-padding-16"><div style="display: inline-block; width: 20px;text-align: center;"><i class="fa fa-close amalri-text-crimson"></i></div>FERMER</a>
+  <a href="index.html" onclick="w3_closeLang()" class="amalri-bar-item amalri-button"><i class="fa fa-globe fa-violet"></i> Anglais</a>
+  <a href="index-fr.html" onclick="w3_closeLang()" class="amalri-bar-item amalri-button"><i class="fa fa-globe fa-violet"></i> Français</a>
+  <a href="index-ar.html" onclick="w3_closeLang()" class="amalri-bar-item amalri-button"><i class="fa fa-globe fa-violet"></i> العربية</a>
+</div>
+
+<!-- Social media -->
+<div class="amalri-container amalri-slide">
+    <div class="amalri-display-container mySlides">
+      <img src="fr_sport.jpg" style="width:100%">
+      <div class="amalri-display-bottomright amalri-text-grey amalri-fa-size" style="padding:5px 12px">
+       <a href="https://wa.me/+212613378841" ><i class="fa fa-whatsapp amalri-hover-opacity w3-text-green" style="font-weight:bolder;"></i></a>
+      </div>
+   </div>
+    <div class="amalri-display-container mySlides">
+      <img src="fr_spiderman.jpg" style="width:100%">
+      <div class="amalri-display-bottomright amalri-text-grey amalri-fa-size" style="padding:5px 12px">
+       <a href="https://wa.me/+212613378841" ><i class="fa fa-whatsapp amalri-hover-opacity w3-text-green" style="font-weight:bolder;"></i></a>
+      </div>
+    </div>
+    <div class="amalri-display-container mySlides">
+      <img src="fr_cartoon.jpg" style="width:100%">
+      <div class="amalri-display-bottomright amalri-text-grey amalri-fa-size" style="padding:5px 12px">
+       <a href="https://wa.me/+212613378841" ><i class="fa fa-whatsapp amalri-hover-opacity w3-text-green" style="font-weight:bolder;"></i></a>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="amalri-container w3-cyan amalri-padding amalri-xlarge">
+      <div class="amalri-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left amalri-hover-text-teal"></i></div>
+      <div class="amalri-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right amalri-hover-text-teal"></i></div>
+    
+      <div class="amalri-center">
+        <span class="amalri-tag demodots amalri-border amalri-transparent amalri-hover-white" onclick="currentDiv(1)"></span>
+        <span class="amalri-tag demodots amalri-border amalri-transparent amalri-hover-white" onclick="currentDiv(2)"></span>
+        <span class="amalri-tag demodots amalri-border amalri-transparent amalri-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+</div>
+
+<!-- Features on medium and small screen -->
+<p  id="features"></p>
+<div class="amalri-container amalri-light-grey amalri-hide-large" style="padding:128px 16px 0">
+  <h3 class="amalri-center">PRINCIPALES CARACTÉRISTIQUES DE NOS OFFRES</h3>
+  <div class="amalri-container" style="padding:0 16px 0">
+    <p class="amalri-center amalri-large">IPTV <span class="sofia">Karych</span>  est compatible avec</p>
+    <div  class="amalri-center" style="margin-top:64px;width: 240px;margin: auto;">
+      <div class="amalri-third" style="width: 80px;">
+        <i class="fa fa-android amalri-margin-bottom fa-blue amalri-xxlarge"style="margin-bottom: 0;"></i>
+        <p style="margin-top: 0;" style="margin-top: 0;">Android</p>
+      </div>
+      <div class="amalri-third" style="width: 80px;">
+        <i class="fa fa-apple amalri-margin-bottom fa-blue amalri-xxlarge"style="margin-bottom: 0;"></i>
+        <p style="margin-top: 0;">macOS</p>
+      </div>
+      <div class="amalri-third"  style="width: 80px;">
+        <i class="fa fa-windows amalri-margin-bottom  fa-blue amalri-xxlarge"style="margin-bottom: 0;"></i>
+        <p style="margin-top: 0;">Windows</p>
+      </div>
+    </div>
+  </div>
+    <p class="amalri-center amalri-large">Vous pouver utiliser IPTV <span class="sofia">Karych</span>  sur votre</p>
+    <div  class="amalri-center" style="margin-top:64px;width: 300px;margin: auto; clear: right;">
+      <div class="amalri-third" style="width: 60px;">
+        <i class="fa fa-tv amalri-margin-bottom fa-blue amalri-xxlarge"style="margin-bottom: 0;"></i>
+        <p style="margin-top: 0; text-align: center; font-size: 10px;">SmartTV</p>
+      </div>
+      <div class="amalri-third" style="width: 60px;">
+        <i class="fa fa-mobile amalri-margin-bottom fa-blue amalri-xxlarge" style="margin-bottom: 0;"></i>
+        <p style="margin-top: 0; text-align: center; font-size: 10px;">Smartphone</p>
+      </div>
+      <div class="amalri-third"  style="width: 60px;">
+        <i class="fa fa-tablet amalri-margin-bottom  fa-blue amalri-xxlarge"style="margin-bottom: 0;"></i>
+        <p style="margin-top: 0; text-align: center; font-size: 10px;">Tablette</p>
+      </div>
+      <div class="amalri-third"  style="width: 60px;">
+        <i class="fa fa-desktop amalri-margin-bottom  fa-blue amalri-xxlarge"style="margin-bottom: 0;"></i>
+        <p style="margin-top: 0; text-align: center; font-size: 10px;">Ordinateur<br/>de bureau</p>
+      </div>
+     <div class="amalri-third" style="width: 60px;">
+        <i class="fa fa-laptop amalri-margin-bottom fa-blue amalri-xxlarge" style="margin-bottom: 0;"></i>
+        <p style="margin-top: 0; text-align: center; font-size: 10px;">PC</p>
+      </div>
+      </div>
+    </div>
+</div>
+
+<!-- Play on large screen -->
+<div class="amalri-container amalri-light-grey amalri-padding-64 amalri-hide-medium amalri-hide-small">
+  <div class="amalri-row-padding">
+    <h3 class="amalri-center">PRINCIPALES CARACTÉRISTIQUES DE NOS OFFRES</h3>
+    <div class="amalri-col m6"  style="text-align: right;">
+      <div  class="amalri-center" style="margin-top:64px;width: 250px;margin: auto; clear: right;">
+        <p class="amalri-center amalri-large">IPTV <span class="sofia">Karych</span>  est compatible avec</p>
+        <div class="amalri-third" style="width: 80px;">
+          <i class="fa fa-android amalri-margin-bottom fa-blue amalri-xxlarge"style="margin-bottom: 0;"></i>
+          <p style="margin-top: 0;" style="margin-top: 0;">Android</p>
+        </div>
+        <div class="amalri-third" style="width: 80px;">
+          <i class="fa fa-apple amalri-margin-bottom fa-blue amalri-xxlarge"style="margin-bottom: 0;"></i>
+          <p style="margin-top: 0;">macOS</p>
+        </div>
+      <div class="amalri-third"  style="width: 80px;">
+          <i class="fa fa-windows amalri-margin-bottom  fa-blue amalri-xxlarge"style="margin-bottom: 0;"></i>
+          <p style="margin-top: 0;">Windows</p>
+        </div>
+      </div>
+    </div>
+    <div class="amalri-col m6"  style="text-align: right;">
+    <div  class="amalri-center" style="margin-top:64px;width: 300px;margin: auto; clear: right;">
+      <p class="amalri-center amalri-large">Vous pouvez utiliser IPTV <span class="sofia">Karych</span>  sur votre</p>
+      <div class="amalri-third" style="width: 60px;">
+        <i class="fa fa-tv amalri-margin-bottom fa-blue amalri-xxlarge"style="margin-bottom: 0;"></i>
+        <p style="margin-top: 0; text-align: center; font-size: 10px;">SmartTV</p>
+      </div>
+      <div class="amalri-third" style="width: 60px;">
+        <i class="fa fa-mobile amalri-margin-bottom fa-blue amalri-xxlarge" style="margin-bottom: 0;"></i>
+        <p style="margin-top: 0; text-align: center; font-size: 10px;">Smartphone</p>
+      </div>
+      <div class="amalri-third"  style="width: 60px;">
+        <i class="fa fa-tablet amalri-margin-bottom  fa-blue amalri-xxlarge"style="margin-bottom: 0;"></i>
+        <p style="margin-top: 0; text-align: center; font-size: 10px;">Tablette</p>
+      </div>
+      <div class="amalri-third"  style="width: 60px;">
+        <i class="fa fa-desktop amalri-margin-bottom  fa-blue amalri-xxlarge"style="margin-bottom: 0;"></i>
+        <p style="margin-top: 0; text-align: center; font-size: 10px;">Ordinateur<br/>de bureau</p>
+      </div>
+      <div class="amalri-third" style="width: 60px;">
+        <i class="fa fa-laptop amalri-margin-bottom fa-blue amalri-xxlarge" style="margin-bottom: 0;"></i>
+        <p style="margin-top: 0; text-align: center; font-size: 10px;">PC</p>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="amalri-row-padding amalri-center" style="margin-top:64px">
+    <div class="amalri-quarter">
+      <i class="fa fa-desktop amalri-margin-bottom w3-text-aqua amalri-jumbo amalri-center" style="background-image: linear-gradient(blue,white, white);border-radius: 6px;"></i>
+      <p class="amalri-large">TOUS LES APPAREILS PRIS EN CHARGE</p>
+    </div>
+    <div class="amalri-quarter">
+      <i class="fa fa-heart amalri-margin-bottom w3-text-aqua amalri-jumbo"></i>
+      <p class="amalri-large">ACCÈS À TOUS LES CANAUX PAYANTS ET GRATUITS</p>
+    </div>
+    <div class="amalri-quarter">
+      <i class="fa fa-globe amalri-margin-bottom w3-text-aqua amalri-jumbo myAnimation3"></i>
+      <p class="amalri-large">CHAÎNES INTERNATIONALES DE 82 PAYS</p>
+    </div>
+    <div class="amalri-quarter">
+      <i class="fa fa-location-arrow amalri-margin-bottom w3-text-aqua amalri-jumbo"></i>
+      <p class="amalri-large">EXPÉDITION DANS LE MONDE ENTIER</p>
+    </div>
+  </div>
+
+<br/>
+  <div class="amalri-row-padding amalri-center">
+    <div class="amalri-quarter">
+      <i class="fa fa-unlock amalri-margin-bottom w3-text-aqua amalri-jumbo"></i>
+      <p class="amalri-large">ACTIVATION RAPIDE</p>
+    </div>
+    <div class="amalri-quarter">
+      <i class="fa fa-cog amalri-margin-bottom w3-text-aqua amalri-jumbo myAnimation2"></i>
+      <p class="amalri-large">ASSISTANCE EN LIGNE 24/7</p>
+    </div>
+    <div class="amalri-quarter">
+      <i class="fa fa-plus amalri-margin-bottom w3-text-aqua amalri-jumbo"></i>
+      <p class="amalri-large">ET PLUS ENCORE</p>
+    </div>
+  </div>
+</div>
+
+<div class="amalri-container amalri-light-grey amalri-padding-64" id="about">
+  <div class="amalri-row-padding">
+    <div class="amalri-col m6">
+      <h3>À PROPOS DE L’ENTREPRISE</h3>
+      <p>Nous sommes le meilleur fournisseur de services d’abonnement IPTV comparant le prix, la qualité du service et le support client<br>
+        Nous avons plus de 16 000 chaînes de télévision, dont plus de 200 chaînes sportives premium<br>
+        Rien ne peut battre la qualité de diffusion de nos chaînes de télévision</p>
+    </div>
+    <div class="amalri-col m6">
+      <p class="amalri-wide"><i class="fa fa-pause amalri-margin-right"></i>ANTI MISE EN MÉMOIRE TAMPON</p>
+      <div class="amalri-grey">
+        <div class="amalri-container amalri-dark-blue amalri-center" style="width:99.9%">99.9%</div>
+      </div>
+      <p class="amalri-wide"><i class="fa fa-server amalri-margin-right"></i>SERVEURS RAPIDES</p>
+      <div class="amalri-grey">
+        <div class="amalri-container amalri-dark-blue amalri-center" style="width:99.9%">99.9%</div>
+      </div>
+      <p class="amalri-wide"><i class="fa fa-user amalri-margin-right"></i>PAIEMENT SÉCURISÉ</p>
+      <div class="amalri-grey">
+        <div class="amalri-container amalri-dark-blue amalri-center" style="width:100%">100%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="amalri-container" style="padding:128px 16px">
+  <h3 class="amalri-center">TOUS LES PAYS DU MONDE ENTIER SONT COUVERT</h3>
+    <img src="flags.jpg" id="img01" style="max-width: 100%; margin-left: auto; margin-right: auto;display: block;">
+</div>
+
+
+<div class="amalri-container amalri-row amalri-center amalri-dark-blue amalri-padding-64">
+
+  <div class="amalri-center">
+    <span class="amalri-xxlarge">15628+</span>
+    <br>Clients satisfaits
+  </div>
+</div>
+
+<!-- Test line -->
+<div class="amalri-container amalri-light-grey" style="padding:128px 16px" id="test">
+  <div class="amalri-row-padding">
+    <div class="amalri-col m6">
+      <h3>LIGNE DE TEST 24 HEURES</h3>
+      <p>Liste de lecture complète, Films et séries, M3U | MAG | Xtream</p>
+      <p><a href="#contact" class="amalri-button-yellow amalri-white amalri-padding-large amalri-large amalri-margin-top amalri-opacity amalri-hover-opacity-off"><i class="fa fa-envelope"></i> Contactez-nous</a></p>
+    </div>
+    <div class="amalri-col m6">
+      <img class="amalri-image amalri-round-large w3-circle" src="wallpaper_test.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Tabs -->
+<div id="pricing" class="w3-container amalri-center amalri-dark-blue" style="padding:64px 16px">
+  <h1 style="margin-bottom: 0;">Nos Abonnements</h1>
+  <p  style="margin-top: 0;"class="amalri-large">Choisissez un plan tarifaire qui correspond à vos besoins</p>
+
+  <div class="w3-row">
+    <a href="javascript:void(0)"  class="w3-btn tablink" onclick="openSubscription(event, 'Silver');">
+      <h3 class="w3-text-light-blue   w3-bottombar">SILVER IPTV</h3>
+      <h5>SD, HD/HD<sup>+</sup>, FHD</h5></a>  
+    <a href="javascript:void(0)" class="w3-btn tablink" onclick="openSubscription(event, 'Golden');">
+      <h3 class="w3-text-amber  w3-bottombar">GOLDEN IPTV</h3>
+      <h5>+ 4K</h5></a>
+  </div>
+
+<!-- Silver -->
+<div id="Silver" class="amalri-container amalri-center amalri-dark-blue subscription w3-animate-zoom" >
+  <div class="amalri-row-padding" style="margin-top:64px">
+    <div class="amalri-quarter amalri-section">
+      <ul class="amalri-ul amalri-white amalri-hover-shadow">
+        <li class="w3-light-blue amalri-xlarge amalri-padding-32">1 MOIS</li>
+        <li class="amalri-padding-16"><b>Plus 9,000 </b> Chaînes TV</li>
+        <li class="amalri-padding-16"><b>Plus 15,000 </b> Films</li>
+        <li class="amalri-padding-16"><b>Plus 12,000 </b> Épisodes de séries</li>
+        <li class="amalri-padding-16"><b>SD, HD, HD+, Full HD</b></li>
+        <li class="amalri-padding-16"><b>Liste de lecture catégorisée</b></li>
+        <li class="amalri-padding-16"><b>Mise à jour automatique et gratuite</b></li>
+        <li class="amalri-padding-16">
+          <h2 class="amalri-wide">$ 10</h2>
+          <span class="amalri-opacity"> 1 MOIS</span>
+        </li>
+        <li class="amalri-light-grey amalri-padding-24">
+          <p><a href="#contact" class="amalri-button amalri-black"><i class="fa fa-th"> </i> Contactez-nous</a></p>
+        </li>
+      </ul>
+    </div>
+    <div class="amalri-quarter amalri-section">
+      <ul class="amalri-ul amalri-white amalri-hover-shadow">
+        <li class="w3-light-blue amalri-xlarge amalri-padding-32">3 MOIS</li>
+        <li class="amalri-padding-16"><b>Plus 9,000 </b> Chaînes TV</li>
+        <li class="amalri-padding-16"><b>Plus 15,000 </b> Films</li>
+        <li class="amalri-padding-16"><b>Plus 12,000 </b> Épisodes de séries</li>
+        <li class="amalri-padding-16"><b>SD, HD, HD+, Full HD</b></li>
+        <li class="amalri-padding-16"><b>Liste de lecture catégorisée</b></li>
+        <li class="amalri-padding-16"><b>Mise à jour automatique et gratuite</b></li>
+        <li class="amalri-padding-16">
+          <h2 class="amalri-wide">$ 15</h2>
+          <span class="amalri-opacity"> 3 MOIS</span>
+        </li>
+        <li class="amalri-light-grey amalri-padding-24">
+          <p><a href="#contact" class="amalri-button amalri-black"><i class="fa fa-th"> </i> Contactez-nous</a></p>
+        </li>
+      </ul>
+    </div>
+    <div class="amalri-quarter">
+      <ul class="amalri-ul amalri-white amalri-hover-shadow">
+        <li class="w3-cyan amalri-xlarge amalri-padding-48">6 MOIS</li>
+        <li class="amalri-padding-16"><b>Plus 9,000 </b> Chaînes TV</li>
+        <li class="amalri-padding-16"><b>Plus 15,000 </b> Films</li>
+        <li class="amalri-padding-16"><b>Plus 12,000 </b> Épisodes de séries</li>
+        <li class="amalri-padding-16"><b>SD, HD, HD+, Full HD</b></li>
+        <li class="amalri-padding-16"><b>Liste de lecture catégorisée</b></li>
+        <li class="amalri-padding-16"><b>Mise à jour automatique et gratuite</b></li>
+        <li class="amalri-padding-16">
+          <h2 class="amalri-wide">$ 25</h2>
+          <span class="amalri-opacity"> 6 MOIS</span>
+        </li>
+        <li class="amalri-light-grey amalri-padding-24">
+          <p><a href="#contact" class="amalri-button amalri-black"><i class="fa fa-th"> </i> Contactez-nous</a></p>
+        </li>
+      </ul>
+    </div>
+    <div class="amalri-quarter amalri-section">
+      <ul class="amalri-ul amalri-white amalri-hover-shadow">
+        <li class="w3-light-blue amalri-xlarge amalri-padding-32">1 AN</li>
+        <li class="amalri-padding-16"><b>Plus 9,000 </b> Chaînes TV</li>
+        <li class="amalri-padding-16"><b>Plus 15,000 </b> Films</li>
+        <li class="amalri-padding-16"><b>Plus 12,000 </b> Épisodes de séries</li>
+        <li class="amalri-padding-16"><b>SD, HD, HD+, Full HD</b></li>
+        <li class="amalri-padding-16"><b>Liste de lecture catégorisée</b></li>
+        <li class="amalri-padding-16"><b>Mise à jour automatique et gratuite</b></li>
+        <li class="amalri-padding-16">
+          <h2 class="amalri-wide">$ 50</h2>
+          <span class="amalri-opacity"> 1 an</span>
+        </li>
+        <li class="amalri-light-grey amalri-padding-24">
+          <p><a href="#contact" class="amalri-button amalri-black"><i class="fa fa-th"> </i> Contactez-nous</a></p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Golden -->
+<div id="Golden" class="amalri-container amalri-center amalri-dark-blue subscription w3-animate-zoom" style="display:none;">
+  <div class="amalri-row-padding" style="margin-top:64px">
+    <div class="amalri-quarter amalri-section">
+      <ul class="amalri-ul amalri-white amalri-hover-shadow">
+        <li class="w3-yellow amalri-xlarge amalri-padding-32">1 MOIS</li>
+        <li class="amalri-padding-16"><b>Plus 16,000 </b> Chaînes TV</li>
+        <li class="amalri-padding-16"><b>Plus 35,000 </b> Films</li>
+        <li class="amalri-padding-16"><b>Plus 30,000 </b> Épisodes de séries</li>
+        <li class="amalri-padding-16"><b>+ 4K</b></li>
+        <li class="amalri-padding-16"><b>Liste de lecture catégorisée</b></li>
+        <li class="amalri-padding-16"><b>Mise à jour automatique et gratuite</b></li>
+        <li class="amalri-padding-16">
+          <h2 class="amalri-wide">$ 15</h2>
+          <span class="amalri-opacity"> 1 MOIS</span>
+        </li>
+        <li class="amalri-light-grey amalri-padding-24">
+          <p><a href="#contact" class="amalri-button amalri-black"><i class="fa fa-th"> </i> Contactez-nous</a></p>
+        </li>
+      </ul>
+    </div>
+    <div class="amalri-quarter amalri-section">
+      <ul class="amalri-ul amalri-white amalri-hover-shadow">
+        <li class="w3-yellow amalri-xlarge amalri-padding-32">3 MOIS</li>
+        <li class="amalri-padding-16"><b>Plus 16,000 </b> Chaînes TV</li>
+        <li class="amalri-padding-16"><b>Plus 35,000 </b> Films</li>
+        <li class="amalri-padding-16"><b>Plus 30,000 </b> Épisodes de séries</li>
+        <li class="amalri-padding-16"><b>+ 4K</b></li>
+        <li class="amalri-padding-16"><b>Liste de lecture catégorisée</b></li>
+        <li class="amalri-padding-16"><b>Mise à jour automatique et gratuite</b></li>
+        <li class="amalri-padding-16">
+          <h2 class="amalri-wide">$ 30</h2>
+          <span class="amalri-opacity"> 3 MOIS</span>
+        </li>
+        <li class="amalri-light-grey amalri-padding-24">
+          <p><a href="#contact" class="amalri-button amalri-black"><i class="fa fa-th"> </i> Contactez-nous</a></p>
+        </li>
+      </ul>
+    </div>
+    <div class="amalri-quarter">
+      <ul class="amalri-ul amalri-white amalri-hover-shadow">
+        <li class="w3-amber amalri-xlarge amalri-padding-48">6 MOIS</li>
+        <li class="amalri-padding-16"><b>Plus 16,000 </b> Chaînes TV</li>
+        <li class="amalri-padding-16"><b>Plus 35,000 </b> Films</li>
+        <li class="amalri-padding-16"><b>Plus 30,000 </b> Épisodes de séries</li>
+        <li class="amalri-padding-16"><b>+ 4K</b></li>
+        <li class="amalri-padding-16"><b>Liste de lecture catégorisée</b></li>
+        <li class="amalri-padding-16"><b>Mise à jour automatique et gratuite</b></li>
+        <li class="amalri-padding-16">
+          <h2 class="amalri-wide">$ 50</h2>
+          <span class="amalri-opacity"> 6 MOIS</span>
+        </li>
+        <li class="amalri-light-grey amalri-padding-24">
+          <p><a href="#contact" class="amalri-button amalri-black"><i class="fa fa-th"> </i> Contactez-nous</a></p>
+        </li>
+      </ul>
+    </div>
+    <div class="amalri-quarter amalri-section">
+      <ul class="amalri-ul amalri-white amalri-hover-shadow">
+        <li class="w3-yellow amalri-xlarge amalri-padding-32">1 AN</li>
+        <li class="amalri-padding-16"><b>Plus 16,000 </b> Chaînes TV</li>
+        <li class="amalri-padding-16"><b>Plus 35,000 </b> Films</li>
+        <li class="amalri-padding-16"><b>Plus 30,000 </b> Épisodes de séries</li>
+        <li class="amalri-padding-16"><b>+ 4K</b></li>
+        <li class="amalri-padding-16"><b>Liste de lecture catégorisée</b></li>
+        <li class="amalri-padding-16"><b>Mise à jour automatique et gratuite</b></li>
+        <li class="amalri-padding-16">
+          <h2 class="amalri-wide">$ 70</h2>
+          <span class="amalri-opacity"> 1 an</span>
+        </li>
+        <li class="amalri-light-grey amalri-padding-24">
+          <p><a href="#contact" class="amalri-button amalri-black"><i class="fa fa-th"> </i> Contactez-nous</a></p>
+        </li>
+      </ul>
+    </div>
+  </div></div>
+</div>
+
+<div class="amalri-container amalri-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="amalri-center">CONTACT</h3>
+  <p class="amalri-center amalri-large">Vous pouvez acheter à partir d’ici, Envoyez-nous un message:</p>
+  <div style="margin-top:48px; font-size: 3vw;">
+    <p><i class="fa fa-map-marker fa-fw amalri-margin-right"></i> AMÉRIQUE, EUROPE, AFRIQUE, ASIE, AUSTRALIE</p>
+    <p><a href="https://wa.me/+212613378841" style="text-decoration: none;"><i class="fa fa-phone fa-fw amalri-margin-right"></i> Téléphone (whatsapp): <span  style="color: blue;">+212613378841</span></p></a>
+    <p><i class="fa fa-envelope fa-fw amalri-margin-right"> </i> Email: saidkarychzoumi@gmail.com</p>
+    <br>
+  </div>
+</div>
+
+<a href="https://wa.me/+212613378841" class=""><i class="fa fa-whatsapp w3-text-green" style="position: fixed; bottom:30px; left: 28px;font-size: 52px ;font-weight: bolder; padding: 5px 3px;"></i> </a>
+
+<footer class="amalri-center amalri-dark-blue amalri-padding-64">
+  <a href="#top" class="amalri-button amalri-light-grey"><i class="fa fa-arrow-up amalri-margin-right"></i>Vers le haut</a>
+  <div class="amalri-xlarge amalri-section">
+    <a href="https://wa.me/+212613378841" ><i class="fa fa-whatsapp amalri-hover-opacity amalri-color-white"></i></a>
+  </div>
+</footer>
+ 
+<!-- Scripts -->
+<script src="./scripts.js"></script>
+
+</body>
+</html>
